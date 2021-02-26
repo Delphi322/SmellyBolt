@@ -1572,6 +1572,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m6781CCFA51D64CA3DF1
 	bool retVal = _il2cpp_icall_func(___key0);
 	return retVal;
 }
+// System.Single UnityEngine.Input::GetAxis(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m6454498C755B9A2C964875927FB557CA9E75D387 (String_t* ___axisName0, const RuntimeMethod* method)
+{
+	typedef float (*Input_GetAxis_m6454498C755B9A2C964875927FB557CA9E75D387_ftn) (String_t*);
+	static Input_GetAxis_m6454498C755B9A2C964875927FB557CA9E75D387_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetAxis_m6454498C755B9A2C964875927FB557CA9E75D387_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetAxis(System.String)");
+	float retVal = _il2cpp_icall_func(___axisName0);
+	return retVal;
+}
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxisRaw_mC68301A9D93702F0C393E45C6337348062EACE21 (String_t* ___axisName0, const RuntimeMethod* method)
 {

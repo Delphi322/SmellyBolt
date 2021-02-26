@@ -2505,6 +2505,14 @@ IL_000a:
 		return L_1;
 	}
 }
+// System.Void UnityEngine.CanvasGroup::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup__ctor_m330F21C0C65730055E98D30D020E274C96C3AEC5 (CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * __this, const RuntimeMethod* method)
+{
+	{
+		Behaviour__ctor_m409AEC21511ACF9A4CC0654DF4B8253E0D81D22C(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
